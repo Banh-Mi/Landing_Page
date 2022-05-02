@@ -172,6 +172,7 @@ body {
 			width: 100%;
 			.header {
 				justify-content: start;
+				margin-top:-30px;
 				.aliments {
 					margin-left:-10px;
 					font-size: 30px;
@@ -186,7 +187,7 @@ body {
 					.headding {
 						.title::before {
 							left: 0;
-							top:165px;
+							top:132px;
 						}
 						.title {
 							font-size: calc(2.2em + 1.4vw);
@@ -194,14 +195,14 @@ body {
 						}
 						.mintitle::before {
 							left: 0;
-							top: 280px;
+							top: 253px;
 						}
 						.mintitle {
 							font-size: calc(1.2em + 1.4vw);
 						}
 					}
 					.container {
-						font-size: calc(0.55em + 0.45vw);
+						font-size: calc(0.8em + 0.45vw);
 					}
 				}
 				.footer {

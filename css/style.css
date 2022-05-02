@@ -227,6 +227,7 @@ body {
     -webkit-box-pack: start;
         -ms-flex-pack: start;
             justify-content: start;
+    margin-top: -30px;
   }
   .Landing_Frame .Rectangle1 .header .aliments {
     margin-left: -10px;
@@ -240,7 +241,7 @@ body {
   }
   .Landing_Frame .Rectangle1 .body .text .headding .title::before {
     left: 0;
-    top: 165px;
+    top: 132px;
   }
   .Landing_Frame .Rectangle1 .body .text .headding .title {
     font-size: calc(2.2em + 1.4vw);
@@ -250,13 +251,13 @@ body {
   }
   .Landing_Frame .Rectangle1 .body .text .headding .mintitle::before {
     left: 0;
-    top: 280px;
+    top: 253px;
   }
   .Landing_Frame .Rectangle1 .body .text .headding .mintitle {
     font-size: calc(1.2em + 1.4vw);
   }
   .Landing_Frame .Rectangle1 .body .text .container {
-    font-size: calc(0.55em + 0.45vw);
+    font-size: calc(0.8em + 0.45vw);
   }
   .Landing_Frame .Rectangle1 .body .footer {
     margin-bottom: 20px;
