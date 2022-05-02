@@ -144,12 +144,12 @@ body {
           justify-content: left;
   position: relative;
   left: -10px;
+  width: 330px;
 }
 
 .Landing_Frame .Rectangle1 .body .text .button .view_book {
   margin-right: 35px;
   width: 150px;
-  font-size: 17px;
   font-weight: 400;
   background-color: #D1D1D1;
   color: #404040;
@@ -205,23 +205,20 @@ body {
 @media screen and (max-width: 460px) {
   body {
     background-color: white;
+    height: 50em;
     width: 100%;
-    height: -webkit-fit-content;
-    height: -moz-fit-content;
-    height: fit-content;
   }
   .Landing_Frame {
+    height: 100%;
+    background-color: white;
+    left: 0;
+    margin-left: 10px;
+    width: 100%;
+  }
+  .Landing_Frame .Rectangle1 {
     height: -webkit-fit-content;
     height: -moz-fit-content;
     height: fit-content;
-    background-color: white;
-    left: 0;
-    width: 100%;
-    margin-left: 10px;
-  }
-  .Landing_Frame .Rectangle1 {
-    padding-left: 10px;
-    width: 100%;
   }
   .Landing_Frame .Rectangle1 .header {
     -webkit-box-pack: start;
@@ -234,14 +231,22 @@ body {
     font-size: 30px;
   }
   .Landing_Frame .Rectangle1 .header .cart {
-    margin-left: calc(15px + 10em);
+    margin-left: calc(4.8em + 20vw);
   }
   .Landing_Frame .Rectangle1 .body {
     margin-left: 0px;
   }
+  .Landing_Frame .Rectangle1 .body .text {
+    width: 350px;
+  }
+  .Landing_Frame .Rectangle1 .body .text .headding {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
   .Landing_Frame .Rectangle1 .body .text .headding .title::before {
     left: 0;
-    top: 132px;
+    top: 111px;
   }
   .Landing_Frame .Rectangle1 .body .text .headding .title {
     font-size: calc(2.2em + 1.4vw);
@@ -251,32 +256,38 @@ body {
   }
   .Landing_Frame .Rectangle1 .body .text .headding .mintitle::before {
     left: 0;
-    top: 253px;
+    top: 232px;
   }
   .Landing_Frame .Rectangle1 .body .text .headding .mintitle {
     font-size: calc(1.2em + 1.4vw);
   }
   .Landing_Frame .Rectangle1 .body .text .container {
-    font-size: calc(0.65em + 0.45vw);
+    margin-top: 5px;
+    font-size: calc(0.6em + 0.8vw);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .Landing_Frame .Rectangle1 .body .footer {
-    margin-bottom: 20px;
+    margin-top: 20px;
   }
   .Landing_Frame .Rectangle1 .body .footer .title {
     font-size: calc(1.1em + 1.4vw);
   }
   .Landing_Frame .Rectangle1 .body .footer .text {
     font-size: calc(0.7em + 0.45vw);
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
   }
   .Landing_Frame .Rectangle1 .body .image {
     position: absolute;
-    width: 350px;
-    top: 33em;
+    width: 88vw;
+    top: 29.5em;
     margin: 0 auto;
     border: 2px solid #D1D1D1;
-    padding: 10px 20px;
+    padding: 10px 10px;
     border-radius: 10px;
-    margin-bottom:1.5em;
   }
 }
 /*# sourceMappingURL=style.css.map */
