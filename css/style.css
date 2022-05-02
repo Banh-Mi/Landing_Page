@@ -257,7 +257,7 @@ body {
     font-size: calc(1.2em + 1.4vw);
   }
   .Landing_Frame .Rectangle1 .body .text .container {
-    font-size: calc(0.8em + 0.45vw);
+    font-size: calc(0.65em + 0.45vw);
   }
   .Landing_Frame .Rectangle1 .body .footer {
     margin-bottom: 20px;
@@ -271,11 +271,12 @@ body {
   .Landing_Frame .Rectangle1 .body .image {
     position: absolute;
     width: 350px;
-    top: 35em;
+    top: 33em;
     margin: 0 auto;
     border: 2px solid #D1D1D1;
     padding: 10px 20px;
     border-radius: 10px;
+    margin-bottom:20px;
   }
 }
 /*# sourceMappingURL=style.css.map */
